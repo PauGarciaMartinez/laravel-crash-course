@@ -13,5 +13,4 @@ use App\Http\Controllers\ProductsController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/products', [ProductsController::class, 'index']);
