@@ -11,6 +11,7 @@ class PagesController extends Controller
   }
 
   public function about() {
-    return view('about');
+    $name = 'Pau';
+    return view('about')->name('name', $name);
   }
 }
